@@ -1,7 +1,12 @@
 
-# Welcome to your CDK Python project!
+# Welcome to my CDK Url Shortener Project!
 
-This is a blank project for Python development with CDK.
+Here is the rough architecture of the project.
+
+![](URL%20Shortener%20Architecture%20CDK.png)
+
+To understand how to run and deploy it, please read the following default steps
+
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
@@ -42,10 +47,6 @@ At this point you can now synthesize the CloudFormation template for this code.
 ```
 $ cdk synth
 ```
-
-To add additional dependencies, for example other CDK libraries, just add
-them to your `setup.py` file and rerun the `pip install -r requirements.txt`
-command.
 
 ## Useful commands
 
